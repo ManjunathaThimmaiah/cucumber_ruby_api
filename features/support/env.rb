@@ -19,16 +19,16 @@ PAGE_SEARCH_URL = "https://api.wikimedia.org/core/v1/wikipedia/en/search/title?q
 PAGE_DETAILS = "https://api.wikimedia.org/core/v1/wikipedia/en/page/"
 
 # USERNAME: API username/Client_id for Wikimedia API authentication.
-USERNAME = "11605db21461baf0d56b30f2383bebee"
+USERNAME = ""
 
 # PASSWORD: API password/Client_Secrete for Wikimedia API authentication.
-PASSWORD = "f1412e280a48f63e3c2ef0dfb4bc83d6141f0c7f"
+PASSWORD = ""
 
 # CLIENT_ID: API Client_id for Wikimedia API authentication.
-CLIENT_ID = "11605db21461baf0d56b30f2383bebee"
+CLIENT_ID = ""
 
 # CLIENT_SECRETE: API Client_Secrete for Wikimedia API authentication.
-CLIENT_SECRETE = "f1412e280a48f63e3c2ef0dfb4bc83d6141f0c7f"
+CLIENT_SECRETE = ""
 
 def basic_auth_credentials
   {

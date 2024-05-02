@@ -14,3 +14,10 @@ Feature: Testing Wikimedia API
     When The page details for "Sesame Street characters" are requested
     Then the response status should be 200
     And the timestamp should be greater than "2024-04-04"
+
+    # The page with name furry rabbits is not found and this test scenario will fail
+  @page_title
+  Scenario: Search for a wiki page title 'furry rabbits'
+    When A search for pages containing for "furry rabbits" is executed
+    Then the response status should be 200
+    And A page with the title "Sesame Street" is found
